@@ -42,4 +42,7 @@ git merge <branch>: Merge branch to master
 
 git rebase:
 Go back to specific branch: git checkout <branch>
-git rebase master
+git rebase master 
+#Then resolve the conflict and complete rebase; Then go back to master
+git checkout master
+git merge <branch>
