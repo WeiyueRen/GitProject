@@ -15,3 +15,5 @@ git clean -n show untracked file.
 Use git reset -- hard and git clean -f to match the working directory to the remote repository
 
 git commit --amend: Amend the comment message.
+
+New lines here.
