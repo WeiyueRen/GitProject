@@ -15,3 +15,14 @@ git clean -n show untracked file.
 Use git reset -- hard and git clean -f to match the working directory to the remote repository
 
 git commit --amend: Amend the comment message.
+Or to combine staged changes with previous commit. --no edit will not change the commit message
+
+Merge other poeples change:
+1. git fetch origin: Fetch the new change made by other people
+
+2. git checkout master
+git log --oneline master..origin/master: Filter to see what commits have been added to the upstream master
+
+3. git merge origin/master
+
+origin/master: remote; master: local
