@@ -9,3 +9,9 @@ git revert: Create a new commit
 
 git reset: remove files from staging area, the working directory will not be changed.
 --hard: Override the change made in local file.
+
+git clean -n show untracked file.
+
+Use git reset -- hard and git clean -f to match the working directory to the remote repository
+
+git commit --amend: Amend the comment message.
