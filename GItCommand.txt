@@ -31,3 +31,4 @@ origin/master: remote; master: local
 git pull origin will do the same
 After you commit the local change, the pull command will show the conflict between your local file and remote file.
 
+git config --global branch.autosetuprebase always
