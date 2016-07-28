@@ -27,3 +27,5 @@ git log --oneline master..origin/master: Filter to see what commits have been ad
 3. git merge origin/master
 
 origin/master: remote; master: local
+
+git pull origin will do the same
