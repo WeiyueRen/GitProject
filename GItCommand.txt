@@ -33,3 +33,8 @@ After you commit the local change, the pull command will show the conflict betwe
 
 git config --global branch.autosetuprebase always
 
+git branch <branch>: Create new branch
+git checkout <branch>: Switch to new branch
+# Edit file and commit file
+git checkout master: go back to master
+git merge <branch>: Merge branch to master
