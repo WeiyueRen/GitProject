@@ -47,3 +47,5 @@ git rebase master
 #Then resolve the conflict and complete rebase; Then go back to master
 git checkout master
 git merge <branch>
+
+
