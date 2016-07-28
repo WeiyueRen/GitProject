@@ -5,3 +5,5 @@ git config core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiI
 vim exit:
 esc -> :x!
 
+git reset: remove files from staging area, the working directory will not be changed.
+--hard: Override the change made in local file.
