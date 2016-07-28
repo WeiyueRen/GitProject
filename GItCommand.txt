@@ -33,6 +33,7 @@ After you commit the local change, the pull command will show the conflict betwe
 
 git config --global branch.autosetuprebase always
 
+3-way:
 git branch <branch>: Create new branch
 git checkout <branch>: Switch to new branch
 # Edit file and commit file
