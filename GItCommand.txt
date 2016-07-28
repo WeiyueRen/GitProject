@@ -7,5 +7,3 @@ esc -> :x!
 
 git reset: remove files from staging area, the working directory will not be changed.
 --hard: Override the change made in local file.
-
-I don't need this
