@@ -18,9 +18,10 @@ git commit --amend: Amend the comment message.
 Or to combine staged changes with previous commit. --no edit will not change the commit message
 
 Merge other poeples change:
-1. git fetch origin: Fetch the new change made by other people
+1. git fetch origin: Fetch the new change made by other people to remote branch
 
-2. git checkout master
+2. check difference between working and remote
+git checkout master
 git log --oneline master..origin/master: Filter to see what commits have been added to the upstream master
 
 3. git merge origin/master
