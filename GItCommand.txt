@@ -39,4 +39,7 @@ git checkout <branch>: Switch to new branch
 git checkout master: go back to master
 git merge <branch>: Merge branch to master
 
+
 git rebase:
+Go back to specific branch: git checkout <branch>
+git rebase master
